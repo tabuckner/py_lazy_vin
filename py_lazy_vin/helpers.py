@@ -11,3 +11,7 @@ class Helpers():
     @staticmethod
     def get_number_as_string(number):
         return str(number)
+
+    @staticmethod
+    def char_is_number(char):
+        return char.isdigit()
