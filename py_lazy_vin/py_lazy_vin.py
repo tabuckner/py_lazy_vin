@@ -3,16 +3,14 @@
 """Main module."""
 from random import choice
 from helpers import Helpers
-# from .hard_coded_vins import HARD_CODED_VINS
+from hard_coded_vins import HARD_CODED_VINS
 
 class LazyVin:
-    _vin_list = []
+    _vin_list = ()
     _unique_identifier_length = 6
 
     def __init__(self):
-        # self._vin_list = HARD_CODED_VINS
-        self._vin_list = ['JM1GJ1W50E1103389']
-
+        self._vin_list = HARD_CODED_VINS
 
     def get_random_dirty_vin(self):
         random_vin = choice(self._vin_list)
