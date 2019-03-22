@@ -2,11 +2,9 @@
 
 """Main module."""
 from random import choice
-from helpers import Helpers
-from hard_coded_vins import HARD_CODED_VINS
-from vin_character_weights import VIN_CHARACTER_WEIGHTS
-from alpha_to_numerical import ALPHA_TO_NUMERICAL_MAP
-from cd_val_to_vin_char import CD_VAL_TO_VIN_CHAR_MAP
+from .helpers import Helpers
+from .constants.hard_coded_vins import HARD_CODED_VINS
+from .constants.dictionaries import VIN_CHARACTER_WEIGHTS, ALPHA_TO_NUMERICAL_MAP, CD_VAL_TO_VIN_CHAR_MAP
 
 class LazyVin:
     _vin_list = ()
