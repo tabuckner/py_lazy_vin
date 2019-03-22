@@ -1,3 +1,4 @@
 {
-  "python.pythonPath": "venv/bin/python2.7"
+  "python.pythonPath": "venv/bin/python2.7",
+  "restructuredtext.confPath": "${workspaceFolder}/venv/lib/python2.7/site-packages/pbr/tests/testpackage/doc/source"
 }
